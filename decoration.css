@@ -276,13 +276,6 @@ left:0%;
 }
 @media only screen and (max-width:1080px)
 {
-html,body{
-height:100%;
-width:100%;
-margin:0;
-padding:0;
-overflow-x:hidden;
-}
 #logo{
 position:absolute;
 top:-20px;
@@ -306,6 +299,13 @@ left:2%;
 overflow:hidden;
 border:10px white;
 box-shadow:3px 3px 3px grey;
+}
+  html,body{
+height:100%;
+width:100%;
+margin:0;
+padding:0;
+overflow-x:hidden;
 }
 body{
 background:linear-gradient(white,#F5FFFA);
